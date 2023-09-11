@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    direction: rtl;
+}
+@font-face {
+    font-family: BahijBlack;
+    src: url('../fonts/Bahij_TheSansArabic-Black.ttf');
+}
+@font-face {
+    font-family: BahijBold;
+    src: url('../fonts/Bahij_TheSansArabic-Bold.ttf');
+}
+@font-face {
+    font-family: BahijLight;
+    src: url('../fonts/Bahij_TheSansArabic-Light.ttf');
+}
+@font-face {
+    font-family: BahijPlain;
+    src: url('../fonts/Bahij_TheSansArabic-Plain.ttf');
+}
+@font-face {
+    font-family: DINNextLTArabic-Bold;
+    src: url('../fonts/DINNextLTArabic-Bold.ttf');
+}
+@font-face {
+    font-family: DINNextLTArabic-Light;
+    src: url('../fonts/DINNextLTArabic-Light.ttf');
+}
+.cover{
+    position: relative;
+    height: 670px;
+    max-width: 520px;
+}
+.cover-img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.cover-absolute{
+    position: absolute;
+    width: 100%;
+    padding: 16px;
+}
+.img-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.img-head img{
+    width: 40%;
+}
+.text{
+    color: #fff;
+    text-align: center;
+}
+.text-one{
+    font-family: BahijPlain;
+}
+.text-name{
+    font-family: BahijBlack;
+    font-size: 18px;
+}
+.text-small{
+    font-family: BahijLight;
+}
+.text-desc{
+    font-family: BahijPlain;
+}
+.text-big{
+    font-family: BahijBold;
+    font-size: 30px;
+}
+.text-green{
+    color: #48BC84;
+    font-family: BahijLight;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.details{
+    display: flex;
+    padding-right: 15%;
+}
+.details div{
+    margin-left: 30px;
+}
+.text-details{
+    color: #fff;
+    font-family: BahijBold;
+    font-size: 14px;
+}
+.img-details{
+    width: 30px;
+}
+.img-details img{
+    width: 100%;
+}
+.img-location{
+    width: 21px;
+}
+.btn-agree{
+    margin-left: 20px;
+}
+.btn-agree,.btn-cancel{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    max-width: 100px;
+}
+.btn-agree img,.btn-cancel img{
+    width: 100%;
+}
+.response{
+    padding-right: 15%;
+}
+.note{
+    font-family: BahijBold;
+    color: #fff;
+    font-size: 14px;
+    padding-right: 15%;
+}
+.logos{
+    display: flex;
+    align-items: center;
+    padding-right: 15%;
+}
+.img-logo-one{
+    width: 60px;
+    margin-left: 20px;
+}
+.img-logo-one img{
+    width: 100%;
+    height: auto;
+}
+.img-logo-two{
+    width: 85px;
+}
+.img-logo-two img{
+    width: 100%;
+    height: auto;
+}
